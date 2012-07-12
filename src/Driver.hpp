@@ -11,7 +11,7 @@ namespace alt_imagenex
   class Driver : public AltHandler
   {
    public: 
-      Driver(int max_packet_size = 64, bool extract_last = false);
+      Driver(int max_packet_size = ALT_REPLY_LEN_ECHO, bool extract_last = false);
 	
 	/** Tries to access the device at the provided URI
          *

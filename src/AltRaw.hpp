@@ -21,6 +21,9 @@ namespace alt_imagenex {
 #define ALT_REPLY_LEN		0x0D
 #define ALT_REPLY_LEN_ECHO	0x201
 
+#define ALT_SAMPLE_INT		0.000013333
+#define ALT_DEFAULT_SV		1500
+
 
 
     struct AltSwitchCmd{

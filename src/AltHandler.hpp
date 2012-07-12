@@ -2,6 +2,7 @@
 #define _ALT_IMAGENEX_ALTHANDLER_HPP_
 
 #include <iodrivers_base/Driver.hpp>
+#include <base/samples/sonar_beam.h>
 #include "AltTypes.hpp"
 #include "AltRaw.hpp"
 
@@ -17,9 +18,15 @@ namespace alt_imagenex
 	
       AltStatus getStatus() const;
       
+      base::samples::SonarBeam getEchoData() const;
+      
       void setGain(const int& gain);
       
       void setRange(const int& range);
+      
+      void setEcho(bool echoOn);
+      
+      void setSoundVelocity(double soundVelocity);
    
   protected:
     
@@ -29,10 +36,9 @@ namespace alt_imagenex
     
     AltData mData;
     AltStatus mStatus;
-    raw::AltSwitchCmd mSwitchCmd;
-    
+    base::samples::SonarBeam mEchoData;
+    raw::AltSwitchCmd mSwitchCmd;    
   };
-
 }
 
 #endif
