@@ -1,5 +1,5 @@
-#ifndef ALT_SCHILLING_ALTRAW_HPP
-#define ALT_SCHILLING_ALTRAW_HPP
+#ifndef ALT_IMAGENEX_ALTRAW_HPP
+#define ALT_IMAGENEX_ALTRAW_HPP
 
 namespace alt_imagenex {
   namespace raw {
