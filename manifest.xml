@@ -3,16 +3,8 @@
   This package contains a driver for Imagenex altimeters
   </description>
   <author>Sitta Buhmann/sbuhmann@marum.de</author>
-  <license></license>
-  <url>http://</url>
-  <logo>http://</logo>
-  <!--
-   To add any dependencies use the depend tag
-  <depend package="dummy-dependency-0" />
-	...
-  <depend package="dummy-dependency-n-1" />
-  <depend package="dummy-dependency-n" />
-  -->
+  <license>LGPLv2 or later</license>
   <depend package="base/types" />
   <depend package="drivers/iodrivers_base" />
+  <tags>underwater</tags>
 </package>
