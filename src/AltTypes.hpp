@@ -1,7 +1,7 @@
 #ifndef ALT_IMAGENEX_ALTTYPES_HPP
 #define ALT_IMAGENEX_ALTTYPES_HPP
 
-#include <base/time.h>
+#include <base/Time.hpp>
 
 namespace alt_imagenex {
   

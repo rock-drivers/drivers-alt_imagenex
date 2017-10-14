@@ -2,7 +2,7 @@
 #define _ALT_IMAGENEX_ALTHANDLER_HPP_
 
 #include <iodrivers_base/Driver.hpp>
-#include <base/samples/sonar_beam.h>
+#include <base/samples/SonarBeam.hpp>
 #include "AltTypes.hpp"
 #include "AltRaw.hpp"
 
